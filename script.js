@@ -9,7 +9,7 @@ async function sendMessage() {
   input.value = "";
 
   try {
-    const res = await fetch("https://sanjeev-the-ai-backend--ssksanjeevakumar.repl.co/chat", {
+    const res = await fetch("https://ssksanjeevakumar.github.io/sanjeev-the-ai-frontend/", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message })
